@@ -98,16 +98,12 @@ export default function Hero() {
           whileTap={{ scale: 0.95 }}
           className="items-center gap-2 mb-10 hidden md:flex"
         >
-          <img
-            src="/illustra-logo.png"
-            alt="Illustra Logo"
-            className="w-10 h-10 md:w-8 md:h-8"
-          />
+          
           <Link
             className={`text-2xl ${raleway.className} md:text-xl tracking-[0.3rem] font-semibold text-slate-900 non-italic ml-2`}
             href={"/"}
           >
-            ILLUSTRA
+            GILANIFY
           </Link>
         </motion.div>
 

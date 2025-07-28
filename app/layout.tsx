@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ILLUSTRA Design",
+  title: "Gilanify",
   description: "Crafting digital experiences that inspire and engage.",
 };
 

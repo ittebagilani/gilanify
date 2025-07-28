@@ -27,7 +27,7 @@ export const WhoWeAre = () => {
             <p
               className={`${worksans.className} mt-6 md:mt-12 text-center md:text-left hover:bg-orange-50 mb-8 md:mb-10`}
             >
-              At ILLUSTRA Design, we redefine digital excellence through captivating web design that seamlessly merges
+              At Gilanify Design, we redefine digital excellence through captivating web design that seamlessly merges
               creativity and functionality. Elevate your brand further with our strategic social media marketing and
               high-impact ads. Let&apos;s amplify your digital presence and boost your business to new heights.
             </p>

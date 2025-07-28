@@ -20,7 +20,7 @@ type ReferralData = {
 // Email template functions
 export const emailTemplates = {
   adminReferralNotification: (data: ReferralData): EmailOptions => ({
-    to: process.env.ADMIN_EMAIL || 'info@illustra.design',
+    to: process.env.ADMIN_EMAIL || 'itteba@gilanify.com',
     subject: 'New Referral Submission',
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -57,7 +57,7 @@ export const emailTemplates = {
         </div>
         
         <div style="margin-top: 20px;">
-          <p>Best regards,<br>The ILLUSTRA Team</p>
+          <p>Best regards,<br>The Gilanify Team</p>
         </div>
       </div>
     `
@@ -70,7 +70,7 @@ export async function sendEmail({
   to,
   subject,
   html,
-  from = "info@illustra.design",
+  from = "itteba@gilanify.com",
 }: EmailOptions) {
   if (isSendingEmail) return { success: false, error: "Email already being sent" };
   isSendingEmail = true;

@@ -48,7 +48,7 @@ export async function POST(request: Request) {
 
     // Send email notification to admin
     await sendEmail({
-      to: 'info@illustra.design',
+      to: 'itteba@gilanify.com',
       subject: 'New Consultation Booking',
       html: `
         <h1>New Consultation Booking</h1>
@@ -68,7 +68,7 @@ export async function POST(request: Request) {
         <p>Dear ${firstName},</p>
         <p>Your consultation has been booked for ${format(new Date(date), 'PPP')} at ${timeSlot}.</p>
         <p>We're looking forward to discussing your project!</p>
-        <p>Best regards,<br>The ILLUSTRA Team</p>
+        <p>Best regards,<br>The Gilanify Team</p>
       `,
     });
 

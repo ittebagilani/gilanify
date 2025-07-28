@@ -46,7 +46,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         
         <div className="border-t border-white/20 text-center text-xs">
-          <p>&copy; {new Date().getFullYear()} ILLUSTRA. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Gilanify. All rights reserved.</p>
         </div>
       </div>
     </footer>

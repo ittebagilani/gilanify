@@ -38,7 +38,7 @@ export async function POST(request: Request) {
 
     // Send email notification to admin
     await sendEmail({
-      to: 'info@illustra.design',
+      to: 'itteba@gilanify.com',
       subject: 'New Referral Submission',
       html: `
         <h1>New Referral Submission</h1>
@@ -61,10 +61,10 @@ export async function POST(request: Request) {
       html: `
         <h1>Thank You for Your Referral!</h1>
         <p>Dear ${referrerName},</p>
-        <p>Thank you for referring ${referralName} to ILLUSTRA. We appreciate your trust in our services.</p>
+        <p>Thank you for referring ${referralName} to Gilanify. We appreciate your trust in our services.</p>
         <p>Our team will review your referral and reach out to them soon.</p>
         <p>Remember, you'll earn 30% of the signed deal value when your referral converts!</p>
-        <p>Best regards,<br>The ILLUSTRA Team</p>
+        <p>Best regards,<br>The Gilanify Team</p>
       `,
     });
 

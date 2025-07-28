@@ -70,7 +70,7 @@ const testimonials = [
     img: "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=703&q=80",
     name: "JOE DAVIES",
     title: "Cofounder, FATJOE",
-    info: "Illustra Design streamlined our operations with powerful Make automations. Itteba’s systems saved us hours every week.",
+    info: "Gilanify streamlined our operations with powerful Make automations. Itteba’s systems saved us hours every week.",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ const testimonials = [
     img: "https://plus.unsplash.com/premium_photo-1670588776139-da93b47afc6f?auto=format&fit=crop&w=687&q=80",
     name: "SARAH CHEN",
     title: "Marketing Director, TechFlow",
-    info: "We used to manually manage everything. Now with Illustra Design’s AI and automation setups, our campaigns run themselves.",
+    info: "We used to manually manage everything. Now with Gilanify's AI and automation setups, our campaigns run themselves.",
   },
 ];
 

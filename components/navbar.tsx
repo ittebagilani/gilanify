@@ -53,16 +53,12 @@ const Logo = () => {
       className="flex flex-col items-center gap-1 lg:flex-row lg:items-center lg:gap-2"
     >
       <div className="flex items-center gap-2">
-        <img
-          src="/illustra-logo.png"
-          alt="Illustra Logo"
-          className="w-10 h-10 md:w-8 md:h-8"
-        />
+        
         <Link
           className={`text-2xl ${raleway.className} md:text-xl tracking-[0.3rem] font-semibold text-slate-900 ml-2`}
           href="/"
         >
-          ILLUSTRA
+          GILANIFY
         </Link>
       </div>
     </motion.div>

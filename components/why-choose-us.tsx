@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
                   Features
                 </th>
                 <th className="px-6 py-4 text-center text-sm font-medium text-gray-500">
-                  ILLUSTRA
+                  Gilanify
                 </th>
                 <th className="px-6 py-4 text-center text-sm font-medium text-gray-500">
                   Others
