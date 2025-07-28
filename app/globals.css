@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --foreground-rgb: 42, 42, 42;
+  --background-start-rgb: 255, 250, 240;
+  --background-end-rgb: 255, 250, 240;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+

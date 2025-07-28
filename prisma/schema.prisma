@@ -1,0 +1,38 @@
+// prisma/schema.prisma
+datasource db {
+  provider = "postgresql" // or "mysql", "sqlite", etc.
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Appointment {
+  id        String   @id @default(cuid())
+  date      DateTime
+  timeSlot  String
+  firstName String
+  lastName  String
+  email     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Referral {
+  id            String   @id @default(cuid())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  // Referrer details
+  referrerName  String
+  referrerEmail String
+  referrerPhone String
+  
+  // Referral details
+  referralName  String
+  referralPhone String
+  referralEmail String?
+  
+  status        String   @default("pending") // pending, contacted, converted
+}
